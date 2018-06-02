@@ -4,14 +4,16 @@ Sentiment Analysis by [Hitesh Vaidya](https://github.com/hiteshvaidya)
 
 ## Overview
 
-This repository contains code for sentiment analysis on a dataset of mobile reviews. The dataset is downloaded from Kaggle. The code is developed entirely using [Scikit learn](http://scikit-learn.org/stable/index.html).
-The code uses following algorithms: <br>
+This repository contains code for sentiment analysis on a dataset of mobile reviews. The dataset is downloaded from Kaggle. The code is developed using [Scikit learn](http://scikit-learn.org/stable/index.html).
+It uses following algorithms: <br>
 - Bag of Words
 - Multinomial Naive Bayes
 - Logistic Regression
 - Support Vector Machine
 - Random Forest
 - Decision Tree
+
+Also, it has visualisation of data and the knowledge obtained from it.
 
 ## Dependencies
 
@@ -28,12 +30,12 @@ The code uses following algorithms: <br>
 
 ## Data
 
-Download the required data from this [kaggle](https://www.kaggle.com/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones/data) page.
+Download the required data from [this](https://www.kaggle.com/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones/data) kaggle page.
 
 ## Installation
 
 You may run this code in a virtual environment. I preferred to do so.<br>
-Assuming that you have installed pip and virtualenv
+Assuming that you have installed pip and virtualenv,<br>
 Create a virtualenv and activate it. eg. let's call it `senti`
 ```
 cd senti
