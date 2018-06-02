@@ -1,0 +1,7 @@
+pandas
+numpy
+nltk
+matplotlib
+sklearn
+beautifulsoup4
+re
